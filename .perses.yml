@@ -9,7 +9,7 @@ author: "percom21"
 ######### EC2 Configuration #########
 
 #Instance AWS type: Only compatible with machines that support kvm virtualization -> https://help.ubuntu.com/community/KVM/Installation.
-instance_type: "c5.metal"
+instance_type: "m5d.metal"
 #AWS Region.
 region: "eu-west-1"
 
@@ -29,25 +29,25 @@ region: "eu-west-1"
 devices:
   - id: "Basic Devices"
     type: "mobile"
-    devices: 5
+    devices: 33
     android_version: 9
     hardware:
       cpu: "2"
       ram: "3g"
   - id: "Medium Devices"
     type: "mobile"
-    devices: 6
+    devices: 33
     android_version: 9
     hardware:
       cpu: "2.5"
-      ram: "4g"
+      ram: "3g"
   - id: "Medium Devices"
     type: "mobile"
-    devices: 8
+    devices: 33
     android_version: 10
     hardware:
       cpu: "4"
-      ram: "6g"
+      ram: "4g"
 
 
 #Application Id of Android App (can find it in the 'build.graddle' file of the application).
@@ -55,7 +55,7 @@ application_id: "com.spilab.percom21"
 
 #Time to wait for the deployment of Android devices (1m '1 minute', 1h '1 hour')
 #For example, for deploy 50 devices, wait 20m '20 minutes'
-time_wait: "8m"
+time_wait: "45m"
 
 
 ######### Tests Definition #########
