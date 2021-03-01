@@ -57,7 +57,6 @@ application_id: "com.spilab.percom21"
 #For example, for deploy 50 devices, wait 20m '20 minutes'
 time_wait: "45m"
 
-
 ######### Tests Definition #########
 
 tests:
