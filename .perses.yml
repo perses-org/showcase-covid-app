@@ -13,6 +13,9 @@ instance_type: "i3en.metal"
 #AWS Region.
 region: "eu-west-1"
 
+#AMI.
+ami_id: "ami-035966e8adab4aaad"
+
 
 ######### Environment Configuration #########
   #### Set of devices ####
