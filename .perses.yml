@@ -29,21 +29,21 @@ region: "eu-west-1"
 devices:
   - id: "Basic Devices"
     type: "mobile"
-    devices: 33
+    devices: 50
     android_version: 9
     hardware:
       cpu: "2"
       ram: "3g"
   - id: "Medium Devices"
     type: "mobile"
-    devices: 33
+    devices: 50
     android_version: 9
     hardware:
       cpu: "2.5"
       ram: "3g"
   - id: "Medium Devices"
     type: "mobile"
-    devices: 33
+    devices: 50
     android_version: 10
     hardware:
       cpu: "4"
