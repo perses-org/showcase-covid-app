@@ -46,7 +46,7 @@ devices:
       ram: "3g"
   - id: "Medium Devices"
     type: "mobile"
-    devices: 41
+    devices: 30
     android_version: 10
     hardware:
       cpu: "4"
