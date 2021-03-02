@@ -46,7 +46,7 @@ devices:
       ram: "3g"
   - id: "Medium Devices"
     type: "mobile"
-    devices: 30
+    devices: 40
     android_version: 10
     hardware:
       cpu: "4"
@@ -58,7 +58,7 @@ application_id: "com.spilab.percom21"
 
 #Time to wait for the deployment of Android devices (1m '1 minute', 1h '1 hour')
 #For example, for deploy 50 devices, wait 20m '20 minutes'
-time_wait: "45m"
+time_wait: "30m"
 
 ######### Tests Definition #########
 
