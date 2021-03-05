@@ -58,7 +58,6 @@ public class HeatMapResource {
     public Exception executeMethod(HeatMapResponse response) throws MqttException, UnsupportedEncodingException {
         mapResponse = response;
 
-
         switch (response.getMethod()) {
             case "getHeatmaps":
                 getHeatmaps(response.getParams().getbeginDate(), response.getParams().getendDate(), response.getParams().getXMin(), response.getParams().getXMax(), response.getParams().getYMin(), response.getParams().getYMax());
