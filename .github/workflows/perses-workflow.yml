@@ -1,4 +1,4 @@
-name: Perses Test
+name: Perses Workflow
 
 on:
   push:
