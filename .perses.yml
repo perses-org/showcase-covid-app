@@ -36,7 +36,7 @@ devices:
       ram: "3g"
   - id: "Medium Devices"
     type: "mobile"
-    devices: 6
+    devices: 5
     android_version: 9
     hardware:
       cpu: "2.5"
