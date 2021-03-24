@@ -12,10 +12,7 @@
 2. Introduce the IP/host and port of the MQTT server in the variable *MQTT_BROKER_URL*.
     ```sh
     public static String MQTT_BROKER_URL = "tcp://<ip/host>:<port>"; 
-    ```
-    
-    
-    
+    ```  
     
 
 **Change the tests defined for Perses**
