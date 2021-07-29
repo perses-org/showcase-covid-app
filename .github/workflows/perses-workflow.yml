@@ -58,7 +58,6 @@ jobs:
           uses: actions/checkout@v2
           with:
             repository: perses-org/perses-engine
-            token: ${{ secrets.PERSES_PAT }}
             path: .perses_runner
 
         - name: "Install dependences"
@@ -119,4 +118,21 @@ jobs:
             cd .perses_gha/check
             npm install
             npm start
+
+
+        # Setup Custom Test
+        - name: "Setup Custom Test"
+          run: |       
+            cp  .perses-full.yml .perses_runner/projects/${{steps.generate-project-id.outputs.result}}/logs/perses-config.yml
+            ls -l .perses_runner/projects/${{steps.generate-project-id.outputs.result}}/logs
+            cd ./custom_test
+            npm install
+
+        # Run Custom Test
+        - name: "Run Custom Test"
+          run: |       
+            cd  .perses_runner/projects/${{steps.generate-project-id.outputs.result}}/logs
+            node ../../../../custom_test
+
+        
 
