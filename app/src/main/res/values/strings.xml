@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Covid19 Percom 2021</string>
+    <string name="app_name">Covid-Heatmaps</string>
     <string name="msg_subscribed">Subscribed in topic!</string>
     <string name="msg_subscribe_failed">Fail to subscribe.</string>
 </resources>
