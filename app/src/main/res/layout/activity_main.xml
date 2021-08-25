@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="88dp"
-        android:text="Percom Demos 2021"
+        android:text="Demos JCIS 2021"
         android:textAppearance="@style/TextAppearance.AppCompat.Display3"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
