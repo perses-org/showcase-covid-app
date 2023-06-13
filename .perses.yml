@@ -72,7 +72,7 @@ tests:
       concurrentUsers: 3
       iterations: 5
       delay: 500
-      url: "http://108.129.48.139/risk?device=Device1"
+      url: "http://34.242.37.222/risk?device=Device1"
     expect:
       mean:
         under: 2000
@@ -82,7 +82,7 @@ tests:
       concurrentUsers: 6
       iterations: 8
       delay: 500
-      url: "http://108.129.48.139/risk?device=Device2"
+      url: "http://34.242.37.222/risk?device=Device2"
     expect:
       mean:
         under: 2000
