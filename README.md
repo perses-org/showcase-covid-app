@@ -50,4 +50,4 @@
 
 ***
 
-Make changes to this file to commit and run Perses
+Make changes to this file to commit and run Perses.
